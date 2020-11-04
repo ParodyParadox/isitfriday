@@ -6,8 +6,8 @@ function checkForFriday(currentDate) {
   if(currentDate.getDay() === 5) {
     document.querySelector("#answer").innerHTML = 'YES!';
   } else {
-    document.querySelector("#answer").innerHTML = 'NO :(';
+    document.querySelector("#answer").innerHTML = 'NO!';
   }
 }
 
-checkForFriday(tody);
+checkForFriday(today);

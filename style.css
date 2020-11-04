@@ -1,3 +1,9 @@
+h1{
+  text-align: center;
+  font-size: 180px;
+  font-family: impact;
+  color: #130296;
+}
 body{
-  background-color: red;
+  background-color: #4287f5;
 }
